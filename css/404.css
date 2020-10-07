@@ -1,0 +1,30 @@
+BODY
+{
+	background-color:#0000AA;
+	margin:0 auto;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	font-size: 12pt;
+	color: white;
+	font-family: fixedsys,terminal,courier,monospace;
+	padding-top: 15%;
+}
+#divConteiner
+{
+	width: 650px;  
+	margin: 0 auto;
+	text-align:left; 
+}
+
+p.p404
+{
+	background-color:#FFFFFF;
+	text-align:center; 
+	color:#0000aa;
+}
+
+a
+{
+color: white;
+}

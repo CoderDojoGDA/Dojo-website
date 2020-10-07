@@ -1,0 +1,177 @@
+body {
+    background-color: #FFFFFF;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container
+{
+    margin-left: auto;
+    margin-right: auto;
+
+  
+    
+}
+header   {
+    
+    background: #FFFFFF;
+    color: #222;
+    padding: 20px 30px;
+}
+
+#logo         {
+    display: inline-block;
+    color: #222;
+    text-decoration: none;
+    width: 49%;
+}
+
+#logo img    {
+    width: 50px;
+    border-radius: 3px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+#logo span   {
+    display: inline-block;
+}
+nav     {
+    width: 50%;
+    display: inline-block;
+    text-align: right;
+}
+
+nav ul   {
+    list-style: none;
+    margin: 0;
+}
+nav ul li {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 15px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+nav ul li a    {
+    color: #333;
+    text-decoration: none;
+    display: block;
+    padding: 10px 15px;
+    border-radius: 3px;
+    transition: 0.3s ease all;
+}
+nav ul li a:hover   {
+    background: #FFF;
+    /* jestes? */
+    /*teraz tak*/
+}
+
+.map {
+    height: 500px;
+    width: 50%;
+    border-style: solid;
+    float: left;
+}
+#info
+{
+    font-family: 'Noto Sans', sans-serif;
+    padding-left: 2%;
+    width: 48%;
+    font-size: 24px;
+    float: left;
+    height: 500px;
+    background-color: #FFFFFF;
+    color: #303030;
+}
+#laptop
+{
+    font-family: 'Ubuntu', sans-serif;
+    float: left;
+    width: 50%;
+    height: 500px;
+    object-fit: contain;
+    right: 0;
+    background: url(../images/laptop.png)no-repeat;
+    background-size: contain;
+    
+
+}
+#location
+{
+    
+    width: 99%;
+    height: 600px;
+    background-color: #FFFFFF;
+    text-align: right;
+    padding-right: 1%;
+    
+}
+h2{
+    font-family: 'Contrail One', cursive;
+}
+h1
+{
+    text-align: center;
+    color: #000000;
+}
+#locationInfo
+{
+    
+    float: right;
+    margin-top: 150px;
+    color: #000000;
+    font-size: 24px;
+}
+a:hover
+{
+    color: red;
+    transition: 500ms;
+    
+}
+a
+{
+    color: aqua;
+    transition: 500ms;
+}
+.square
+{
+    font-family: 'Contrail One', cursive;
+
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    color: #303030;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 5%;
+    vertical-align: middle; 
+    float: left;
+    margin: 5px;
+    
+}
+footer
+{
+    text-align: center;
+    font-size: 2px;
+}
+.item {
+    border: 2px solid #3498db;
+    border-radius: 24px;
+    transition: 500ms;
+    background: #3498db;
+}
+.item:hover {
+    border: 2px solid #3498db;
+    border-radius: 24px;
+    transition: 500ms;
+    background-color: green;
+}
+a [class="item"] {
+    color: white;
+}
+header {
+    position: sticky;
+}
