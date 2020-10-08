@@ -1,0 +1,319 @@
+body {
+    background-color: #303030;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container
+{
+    margin-left: auto;
+    margin-right: auto;
+
+  
+    
+}
+header   {
+    
+    background: #222;
+    color: #FFF;
+    padding: 20px 30px;
+}
+
+#logo         {
+    display: inline-block;
+    color: #FFF;
+    text-decoration: none;
+    width: 49%;
+}
+
+#logo img    {
+    width: 50px;
+    border-radius: 3px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+#logo span   {
+    display: inline-block;
+}
+nav     {
+    width: 50%;
+    display: inline-block;
+    text-align: right;
+}
+
+nav ul   {
+    list-style: none;
+    margin: 0;
+}
+nav ul li {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 15px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+nav ul li a    {
+    color: #FFF;
+    text-decoration: none;
+    display: block;
+    padding: 10px 15px;
+    border-radius: 3px;
+    transition: 0.3s ease all;
+}
+nav ul li a:hover   {
+    background: #444;
+}
+
+.map {
+    height: 500px;
+    width: 50%;
+    border-style: solid;
+    float: left;
+    min-width: 60%;
+
+}
+#info
+{
+    font-family: 'Noto Sans', sans-serif;
+    padding-left: 2%;
+    width: 48%;
+    font-size: 24px;
+    float: left;
+    height: 500px;
+    background-color: #303030;
+    color: whitesmoke;
+}
+#laptop
+{
+    font-family: 'Ubuntu', sans-serif;
+    float: left;
+    width: 50%;
+    height: 500px;
+    object-fit: contain;
+    right: 0;
+    background: url(../images/laptop.png)no-repeat;
+    background-size: contain;
+    
+
+}
+#location
+{
+    
+    width: 99%;
+    height: 600px;
+    background-color: #303030;
+    text-align: right;
+    padding-right: 1%;
+    
+}
+
+h1
+{
+    text-align: center;
+    color: white;
+}
+#locationInfo
+{
+    margin-right: 20px;
+    float: right;
+    margin-top: 150px;
+    color: whitesmoke;
+    font-size: 24px;
+}
+a:hover
+{
+    color: red;
+    transition: 500ms;
+    
+}
+a
+{
+    color: aqua;
+    transition: 500ms;
+}
+.square
+{
+    font-family: 'Contrail One', cursive;
+
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    color: whitesmoke;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 5%;
+    vertical-align: middle; 
+    float: left;
+    margin: 5px;
+    
+
+}
+footer
+{
+    text-align: center;
+    font-size: 2px;
+    height: 200px;
+}
+.item {
+    border: 2px solid #3498db;
+    border-radius: 24px;
+    transition: 500ms;
+    background: #3498db;
+}
+.item:hover {
+    border: 2px solid #3498db;
+    border-radius: 24px;
+    transition: 500ms;
+    background-color: green;
+}
+a [class="item"] {
+    color: white;
+}
+.header {
+    position: sticky;
+}
+p {
+    color: white;
+    font-size: 24px;
+}
+#about-us
+{
+    background-color: #333333;
+    font-size: 24px;
+    color: whitesmoke;
+    text-align: center;
+    height: 200px;
+    width: 100%;
+}
+#projekty
+{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #333333;
+}
+
+.list-type2{
+    width:80%;
+    height: 30px;
+    margin:0 auto;
+    }
+    
+    .list-type2 ol{
+    counter-reset: li;
+    list-style: none;
+    *list-style: decimal;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    padding: 0;
+    margin-bottom: 4em;
+    }
+    
+    .list-type2 ol ol{
+    margin: 0 0 0 2em;
+    }
+    
+    .list-type2 a{
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em 2em;
+    *padding: .4em;
+    margin: .5em 0;
+    background: #FC756F;
+    color: #444;
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+    }
+    
+    .list-type2 a:hover{
+    background: #d6d4d4;
+    text-decoration:none;
+    transform: scale(1.1);
+    }
+    
+    .list-type2 a:before{
+    content: counter(li);
+    counter-increment: li;
+    position: absolute;
+    left: -1.3em;
+    top: 50%;
+    margin-top: -1.3em;
+    background:#FC756F;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    border: .3em solid #fff;
+    text-align: center;
+    font-weight: bold;
+    color:#FFF;
+    }
+    #coronavirus
+    {
+        height: 200px;
+        width: 100%;
+        background-color: #333333;
+        color: whitesmoke;
+        font-size: 24px;
+        text-align: center;
+
+    }
+    h2
+    {
+        color: whitesmoke;
+        text-align: center;
+    }
+    .list-type4{
+        width: 80%;
+        margin:0 auto;
+        }
+        
+        .list-type4 ol{
+        counter-reset: li;
+        list-style: none;
+        *list-style: decimal;
+        font-size: 15px;
+        font-family: 'Raleway', sans-serif;
+        padding: 0;
+        margin-bottom: 4em;
+        }
+        .list-type4 a{
+        position: relative;
+        display: block;
+        padding: .4em .4em .4em 2em;
+        *padding: .4em;
+        margin: .5em 0;
+        background: #5975D9;
+        color: white;
+        text-decoration: none;
+        box-shadow:inset 0.5em 0 black;
+        -webkit-transition: box-shadow 1s; /* For Safari 3.1 to 6.0 */
+        transition: box-shadow 1s;
+        }
+        
+        .list-type4 a:hover{
+        box-shadow:inset 2em 0 black;
+        }
+
+        #zapisz-sie
+        {
+            color: whitesmoke;
+            font-size: 24px;
+            background-color: #303030;
+            text-align: center;
+        }
+        #kontakt
+        {
+            font-size: 24px;
+            background-color: #333333;
+        }
+        #myFooter
+        {
+            height: 30px;
+            text-align: center;
+            font-size: 18px;
+        }
+   
+
+  
