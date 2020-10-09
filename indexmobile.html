@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        } 
+    </script>
+    <!--Fonts-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Contrail+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet"> 
+    <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.4.3/build/ol.js"></script>
+
+    <title>CoderDojo Gdańsk</title>
+    <link rel="stylesheet" href="css/mobile.css">
+
+    <!--Wykrywanie komputera-->
+    <script src="platform-detect/mobile.js"></script>
+    
+    <script src="logo.js"></script>
+</head>
+<body>
+    
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <main>
+        <div>
+            <div id="about">
+                <h1>Co to jest coderdojo?</h1>
+                <p>Są to zajęcia informatyczne na których wszyscy uczymy się od siebie! Chcesz zacząć programować? Zapraszamy! a może już umiesz programować i chciałbyś przekazać trochę wiedzy innym? Rówież Zapraszamy!</p>
+            </div>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div id="laptop"></div>
+        <br>
+        <hr>
+        <br>
+        <div id="corona">
+            <h1>Epidemia Koronawirusa</h1>
+            <p>
+                Ze względu na epidemię koronawirusa musimy przenieść się na rozwiązanie online. Spotykać się będziemy na platformie <a href="https://discord.com/">Discord</a>
+            </p>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div id="lokacja">
+            <h1>Gdzie się znajdujemy</h1>
+            <p>
+                Znajdziesz nas w Parku Naukowo Technologicznym w Gdańsku. Informacje o sali w której odbywają <a href="https://www.facebook.com/groups/670919089782231">tutaj.</a>
+            </p>
+      </div>
+      <div id="map" class="map">
+        <script src="a.js"></script>
+      </div>
+      <br>
+      <hr>
+      <br>
+
+      <div id="projekty">
+        <h1>Nasze aktualne projekty</h1>
+        <div class="list-type2">
+          <ol style="height: 100%;">
+          <li><a href="#">Super Tanker</a></li>
+          <br>
+          <li><a href="#">GameJam</a></li>
+          <br>
+          <li><a href="#">Hacking</a></li>
+          </ol>
+          </div>        
+      </div>
+
+      <div id="about-us">
+          <br><br><br><br><br><br><br><hr><br>
+        <h1>O nas</h1>
+       <p> Coderdojo to fundacja, która prowadzi darmowe zajęcia z informatyki,  programownia i innych rzeczy związanych z komputerami.      
+        Więcej informacji na głównej stronie <a href="https://coderdojo.org">CoderDojo</a></p>
+
+
+      </div>
+      <br>
+      <hr>
+      <br>
+      <div id="zapisz-sie">
+        <h1>Jak się zapisać?</h1>
+        <p>Nie musisz się zapisywać :) wystarczy, że dołączysz do nas na Discord. <a href="https://discord.gg/Nu6tAdX">Kliknij tutaj</a>
+        </p>
+      </div>
+      <br>
+      <hr>
+      <br>
+      <div id="kontakt">
+        <h1>Kontakt</h1>
+        <h2 style="text-align: left; margin-left: 30px;">Masz pytania? Napisz do nas śmiało.</h2>
+        <br>
+        <div class="list-type4">
+          <ol>
+          <li><a href="mailto:coderdojo.gdansk@gmail.com">Wyślij mail'a</a></li>
+          <li><a href="https://www.facebook.com/groups/670919089782231">Napisz na Facebook'u</a></li>
+          </ol>
+          </div>
+        <br>
+      </div>
+    </main>
+    <header>
+        <div class="topnav">
+        <a href="#home" class="active" onclick="logo();"><img src="images/logo.png" class="logo" alt="Coderdojo" /></a>
+        <!-- Navigation links (hidden by default) -->
+        <div id="myLinks">
+          <a href="#about-us">O nas</a>
+          <a href="#corona">Koronawirus</a>
+          <a href="#projekty">Projekty</a>
+          <a href="#zapisz-sie">zapisz się</a>
+        </div>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars hamburger"></i>
+        </a>
+      </div>
+    </header>
+    <footer>
+        <hr>
+        <p class="foot">&#169; 2020 By. Jakub K. & Maksymilian L.</p>
+    </footer>
+</body>
+</html>
