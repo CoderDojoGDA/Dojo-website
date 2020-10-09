@@ -308,12 +308,12 @@ p {
             font-size: 24px;
             background-color: #333333;
         }
-        #myFooter
-        {
-            height: 30px;
-            text-align: center;
-            font-size: 18px;
-        }
+#myFooter{
+    height: 30px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
    
 
   
