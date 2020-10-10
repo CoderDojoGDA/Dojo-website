@@ -162,12 +162,14 @@ footer
     border-radius: 24px;
     transition: 500ms;
     background: #3498db;
+    color: white;
 }
 .item:hover {
     border: 2px solid #3498db;
     border-radius: 24px;
     transition: 500ms;
     background-color: green;
+    color: white;
 }
 a [class="item"] {
     color: white;
